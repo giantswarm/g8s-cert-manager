@@ -16,6 +16,10 @@ spec:
   podSelector:
     matchLabels:
       app: {{ .Values.name }}
+  ingress:
+  - ports:
+    - port: 9402
+      protocol: TCP
   egress:
   - {}
   policyTypes:
