@@ -15,7 +15,7 @@ metadata:
 spec:
   podSelector:
     matchLabels:
-      app: {{ .Values.name }}
+      app.kubernetes.io/name: {{ template "cert-manager.name" . }}
   ingress:
   - ports:
     - port: 9402
