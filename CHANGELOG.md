@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.1] - 2020-08-25
+
 ### Fixed
 
 - Fix NetworkPolicy selector to match the one used in deployment.
@@ -66,7 +68,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Push `g8s-cert-manager` app into `operations-platform` catalog.
 
-[Unreleased]: https://github.com/giantswarm/g8s-cert-manager/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/giantswarm/g8s-cert-manager/compare/v1.2.1...HEAD
+[1.2.1]: https://github.com/giantswarm/g8s-cert-manager/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/giantswarm/g8s-cert-manager/compare/v1.1.5...v1.2.0
 [1.1.5]: https://github.com/giantswarm/g8s-cert-manager/compare/v1.1.4...v1.1.5
 [1.1.4]: https://github.com/giantswarm/g8s-cert-manager/compare/v1.1.3...v1.1.4
